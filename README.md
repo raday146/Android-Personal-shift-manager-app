@@ -46,9 +46,9 @@ A small idea to create a personal shift manager for dynamic employees in company
 ### Code contributions
 If you want to lend a hand in the project or it's a feature that you think would need to be discussed please open an issue first, otherwise, you can follow this process:
    - Fork the project
-   - Create a feature branch (git checkout -b my_branch)
+   - Create a feature branch 
    - Fix a problem. Your code must contain test for reproducing problem. Your tests must be passed with help of your fix
-   - Push your changes to your new branch (git push origin my_branch)
+   - Push your changes to your new branch
    - Initiate a pull request on github
    - Rebase master branch if your local branch is not actual. Merging is not acceptable, only rebase
    - Your pull request will be reviewed and hopefully merged.
