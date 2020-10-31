@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#C80C6BA3"
+            android:padding="16dp">
+            <TextView
+                android:id="@+id/month_info"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="30"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/cal_info"
+                android:layout_width="363dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="75dp"
+                android:text="Aug 07 Sunday"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

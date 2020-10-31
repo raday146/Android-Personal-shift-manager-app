@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "769634305775",
+    "firebase_url": "https://projec-shift-app-kotlin.firebaseio.com",
+    "project_id": "projec-shift-app-kotlin",
+    "storage_bucket": "projec-shift-app-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769634305775:android:ff6fe5ace3d8269a187d1a",
+        "android_client_info": {
+          "package_name": "com.example.projecshiftappkotlin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769634305775-5thqkt3i3heekbpatj2314hheq3svo78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACMO4zjKkMdnUc07g_Qs2Y3jiXIgIk3DE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769634305775-5thqkt3i3heekbpatj2314hheq3svo78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout3"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sx"
+    tools:context=".WeeklyShiftActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view3"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:layout_gravity="start"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#25F4F6F8">
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/toolbar3"
+                android:background="#5C032F5A"
+                android:minHeight="?android:attr/actionBarSize"
+                android:theme="?android:attr/actionBarTheme"
+                tools:ignore="MissingConstraints"
+                android:navigationIcon="@drawable/ic_menu_24"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="225dp"
+            android:layout_height="56dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="2sp"
+            android:layout_marginStart="96dp"
+            android:gravity="center"
+            android:text="@string/heb_activity_title"
+            android:textStyle="italic"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/title_view"
+                android:layout_width="308dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/heb_title_threw_shift"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textStyle="italic"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/counter_view"
+                android:layout_width="308dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/custom_view"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/_0"
+                android:textAlignment="center"
+                android:textColor="#0C0C0C"
+                android:textSize="100sp" />
+            <Button
+                android:id="@+id/datePicker_btn"
+                android:layout_width="200dp"
+                android:layout_height="65dp"
+                android:layout_marginHorizontal="100sp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="@string/heb_date_picker_btn"
+                android:textStyle="bold"
+                android:textColor="#0C0C0C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/dateview"
+                android:layout_width="308dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="#950872B1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/plus_btn"
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="140sp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:src="@drawable/ic_baseline_delete_outline_24"
+                android:text="@string/heb_threw_btn"
+                android:textStyle="bold"
+                android:textColor="#0C0C0C"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
