@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projecshiftappkotlin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SEND_SMS" />
+11-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:6:5-67
+11-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:8:5-79
+13-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:9:5-76
+14-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:9:22-73
+15
+16    <application
+16-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:11:5-32:19
+17        android:allowBackup="true"
+17-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:12:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\0a31435b14b470b671468ac74a1bb724\core-1.3.1\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:13:9-43
+21        android:label="Shift"
+21-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:14:9-30
+22        android:networkSecurityConfig="@xml/network_security_config"
+22-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:15:9-69
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:18:9-40
+27        android:usesCleartextTraffic="true" >
+27-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:19:9-44
+28        <activity android:name="com.example.projecshiftappkotlin.MainActions" >
+28-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:21:9-26:20
+28-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:21:19-46
+29            <intent-filter>
+29-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:22:13-25:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:23:17-69
+30-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:24:17-77
+32-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:24:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.example.projecshiftappkotlin.WeeklyShiftActivity" />
+35-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:27:9-57
+35-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:27:19-54
+36        <activity android:name="com.example.projecshiftappkotlin.profile_Activity" />
+36-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:28:9-54
+36-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:28:19-51
+37        <activity android:name="com.example.projecshiftappkotlin.Login" >
+37-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:29:9-30:20
+37-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:29:19-40
+38        </activity>
+39        <activity android:name="com.example.projecshiftappkotlin.MainActivity" />
+39-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:31:9-50
+39-->D:\android_Project\ProjecShiftAppKotlin\app\src\main\AndroidManifest.xml:31:19-47
+40
+41        <service
+41-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:29:9-35:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:30:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:31:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:32:13-34:85
+46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+46-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:33:17-109
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-database:19.4.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\2ad0be2a37edddc87bb8bb09cac8290a\jetified-firebase-database-19.4.0\AndroidManifest.xml:34:17-82
+48        </service>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\8a32ae9832644d0a37982a442d3b9959\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\8a32ae9832644d0a37982a442d3b9959\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\8a32ae9832644d0a37982a442d3b9959\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\8a32ae9832644d0a37982a442d3b9959\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+54
+55        <provider
+55-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:26:9-31:39
+56            android:name="com.google.firebase.provider.FirebaseInitProvider"
+56-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:27:13-77
+57            android:authorities="com.example.projecshiftappkotlin.firebaseinitprovider"
+57-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:28:13-72
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:29:13-43
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:30:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:19.3.1] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\bf2fc22cefbb255f6ddf33637de9b79b\jetified-firebase-common-19.3.1\AndroidManifest.xml:31:13-36
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\fbcb3e9678892d7d1cdf0eed36a1f1d9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\fbcb3e9678892d7d1cdf0eed36a1f1d9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\S.R\.gradle\caches\transforms-2\files-2.1\fbcb3e9678892d7d1cdf0eed36a1f1d9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+65    </application>
+66
+67</manifest>

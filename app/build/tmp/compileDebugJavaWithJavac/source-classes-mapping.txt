@@ -1,0 +1,2 @@
+com/example/projecshiftappkotlin/BuildConfig.java
+ com.example.projecshiftappkotlin.BuildConfig

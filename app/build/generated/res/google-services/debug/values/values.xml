@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">769634305775-5thqkt3i3heekbpatj2314hheq3svo78.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://projec-shift-app-kotlin.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">769634305775</string>
+    <string name="google_api_key" translatable="false">AIzaSyACMO4zjKkMdnUc07g_Qs2Y3jiXIgIk3DE</string>
+    <string name="google_app_id" translatable="false">1:769634305775:android:ff6fe5ace3d8269a187d1a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyACMO4zjKkMdnUc07g_Qs2Y3jiXIgIk3DE</string>
+    <string name="google_storage_bucket" translatable="false">projec-shift-app-kotlin.appspot.com</string>
+    <string name="project_id" translatable="false">projec-shift-app-kotlin</string>
+</resources>
