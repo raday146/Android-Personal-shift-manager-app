@@ -2,6 +2,9 @@
 A small idea to create a personal shift manager for dynamic employees in company branches.
 ##### The project that is not finished at all and is still in the development stages
 
+
+
+
 ## Features
 
  * SharedPreferences
