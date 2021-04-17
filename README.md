@@ -47,7 +47,7 @@ A small idea to create a personal shift manager for dynamic employees in company
   `In the code section above you can see the login function that receives login information and sends a request to verify the information in front of the database on    the server (indicated where to enter the link to connect to the server). And according to the response we will receive, the system will know if the user is who he is and will move the employee to the home window Otherwise you will display a message depending on the event and save unusual events in an event log.`
  ###### :smile_cat: This form of authentication is not the best but I did it out of curiosity (using PHP), another and easy way can be performed by using firebase authentication. 
   
- <img src=https://user-images.githubusercontent.com/57037365/115129136-d5ead500-9feb-11eb-887c-bf272a8d849e.png width="600" height="1024">
+ <img src=https://user-images.githubusercontent.com/57037365/115129136-d5ead500-9feb-11eb-887c-bf272a8d849e.png width="600" height="1200">
 
  
 ### Code contributions
